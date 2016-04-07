@@ -92,3 +92,9 @@ a {
     filter: hue-rotate(360deg);
   }
 }
+
+@media all and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
