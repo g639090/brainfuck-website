@@ -17,8 +17,9 @@ layout: default
   <a href="mailto:fiftynine@protonmail.com">email</a>
 </div>
 
-<br>
+<br><br><br><br>
 
 {% for post in site.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
+  {{ post.date | date_to_string }}
+  <a href="{{ post.url }}"> {{ post.title }}</a>
 {% endfor %}
