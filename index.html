@@ -16,3 +16,9 @@ layout: default
   <a href="http://twitter.com/tentakeI">twitter</a>
   <a href="mailto:fiftynine@protonmail.com">email</a>
 </div>
+
+<br>
+
+{% for post in site.posts %}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
