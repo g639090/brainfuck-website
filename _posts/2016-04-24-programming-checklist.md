@@ -44,6 +44,14 @@ allocation there, and so on.
 This should also cover things like debugging, which, at its simplest form, is
 just printing out to the console or some other output.
 
+<h3>Get to know the tooling</h3>
+
+A language's tooling is very important for using it on a daily basis. Tooling
+includes things such as a build tool, a package/dependency manager and more.
+You want to get to know all these tools, since they can be insanely useful for
+workflow automation later on. If you're lucky, you have a tool that's
+dependency manager AND build tool - like NPM or Mix.
+
 <h3>Write a small project</h3>
 
 With all that you've gathered, you can now start a small project to help you
