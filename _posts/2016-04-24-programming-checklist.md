@@ -66,7 +66,7 @@ at some testing frameworks (some languages come with one preinstalled), and
 learn how to use one. Don't worry, most times it's just asserting equality,
 which is equivalent to `thing == other_thing`.
 
-<h3>Where to go from here</h3>
+<h3>Where to go from here</h3> 
 
 From this point on, I'd recommend that you just collect some ideas, see how you
 can implement them in your language. Maybe an API that gives you a random hip
