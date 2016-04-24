@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous:400);
-@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 $dark:   #222233;
 $white:  mix($dark, white, 20%);
@@ -115,10 +115,19 @@ a {
 body.white {
   background-color: #eee;
   color: black;
+  line-height: 1.6em;
+  font-size: 17px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 
   .container {
     width: 60%;
     height: 90%;
     margin-top: 40px;
+    text-align: left;
+  }
+
+  p, h2, h3, h4 {
+    margin-bottom: 20px;
   }
 }
