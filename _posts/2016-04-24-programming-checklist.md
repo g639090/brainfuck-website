@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A checklist for programming languages"
+title: "A checklist for learning programming languages"
 ---
 
 This post is inspired by [@Charlotteis' tweet](https://twitter.com/Charlotteis/status/724172097115815936).
