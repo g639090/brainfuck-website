@@ -1,133 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Righteous:400);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
-$dark:   #222233;
-$white:  mix($dark, white, 20%);
-$red:    #FD0000;
-$citron: #FDFD00;
-$purple: #A0038B;
-$blue:   #AACCFF;
-
-
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
 body {
-  width: 100%;
-}
-
-body {
+  background-color: #ecf0f1;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
   font-size: 20px;
-  color: #fff;
-  background-color: $dark;
 }
 
 ul {
-  text-align: left;
+  list-style-type: none;
 }
 
 a {
-  color: $blue;
-}
-
-.container {
-  text-align: center;
-  position: absolute;
-  margin: auto;
-  width: 50%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 60%;
-}
-
-.name {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 20px;
-  padding: 40px 60px;
-  color: white;
-  font-family: 'Righteous', sans-serif;
-  font-size: 50px;
-  text-transform: uppercase;
+  color: #2980b9;
   text-decoration: none;
-  letter-spacing: 3px;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: 10px solid transparent;
-    -webkit-border-image: linear-gradient(135deg,$purple, $red, $citron);
-    -o-border-image: linear-gradient(135deg,$purple, $red, $citron);
-    border-image: linear-gradient(135deg,$purple, $red, $citron);
-    border-image-slice: 1;
-    pointer-events: none;
-    -webkit-filter: hue-rotate(0deg);
-    filter: hue-rotate(0deg);
-    -webkit-animation: 0.5s linear 0s infinite normal both running hueShift;
-    animation: 1s linear 0s infinite normal both running hueShift;
-  }
 }
 
-.list {
-  display: inline-block;
-  margin-top: 15px;
-}
-
-@-webkit-keyframes hueShift {
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-    filter: hue-rotate(360deg);
-  }
-}
-
-@keyframes hueShift {
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-    filter: hue-rotate(360deg);
-  }
-}
-
-@media (max-width: 450px) {
-  .container {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      padding: 40px 10px 20px 10px;
-  }
-}
-
-// blog styles
-
-body.white {
-  background-color: #eee;
-  color: black;
-  line-height: 1.6em;
-  font-size: 17px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-
-  .container {
-    width: 60%;
-    height: 90%;
-    margin-top: 40px;
-    text-align: left;
-  }
-
-  p, h2, h3, h4 {
-    margin-bottom: 20px;
-  }
+.post-container {
+  margin: 0 40px;
 }

@@ -2,24 +2,16 @@
 layout: default
 ---
 
-<div class="name">
-  tentakel
-</div>
-
-<p>
-  programmer, they/them
-</p>
-
-<div class="list">
-  <a href="/about">about</a>
-  <a href="http://github.com/tentakel">github</a>
-  <a href="http://twitter.com/tentakeI">twitter</a>
-  <a href="mailto:fiftynine@protonmail.com">email</a>
-</div>
-
-<br><br><br><br>
-
-{% for post in site.posts %}
-  {{ post.date | date_to_string }}
-  <a href="{{ post.url }}"> {{ post.title }}</a>
-{% endfor %}
+<ul>
+  <li>programmer @ node.js</li>
+  <li>pronouns: they/them</li>
+  <li>from düsseldorf (germany)</li>
+  <li>works on
+    <a href="http://github.com/nodejs/nodejs.org">nodejs.org</a>,
+    <a href="http://github.com/jekyll/jekyll">jekyll</a> etc.</li>
+  <li>worked on
+    <a href="http://github.com/retrospring/retrospring">retrospring</a></li>
+  <li>github: <a href="http://github.com/tentakel">tentakel</a></li>
+  <li>twitter: <a href="http://twitter.com/tentakeI">tentakeI</a></li>
+  <li>email: <a href="mailto:fiftynine@protonmail.com">fiftynine at protonmail dot com</a></li>
+</ul>
