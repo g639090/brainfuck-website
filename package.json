@@ -16,5 +16,8 @@
     "url": "https://github.com/tentakel/tentakel.github.io/issues"
   },
   "homepage": "https://github.com/tentakel/tentakel.github.io#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "brainless": "0.1.0"
+  }
 }
