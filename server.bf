@@ -1,6 +1,6 @@
 this is the brainfuck code that returns the html content for my site
 
-STEP 1: send a HTTP indicator (HTTP/1.1)
+STEP 1: send a HTTP indicator (HTTP/1(dot)1)
 
 >++++++++[<+++++++++>-]<.   H
 >+++[<++++>-]<.             T
@@ -10,7 +10,7 @@ STEP 1: send a HTTP indicator (HTTP/1.1)
 ++.                         1
 ---.                        a dot
 +++.                        1
->++++[<---->-]<+.           (space)
+>++++[<---->-]<-.           (space)
 
 STEP 2: figure out if this is a GET request
 
@@ -57,3 +57,19 @@ then head to cell 2 (abbreviated as c2 from now on) and make sure it isn't zero:
 
 right now if c1 is 0 it is a GET request
 if not we want to throw a 404 (c1 is negative)
+c2 and c3 are 0 and the pointer points to c1
+
+STEP 3: figure out if the request goes to /
+
+right now we have read "GET/PUT/etc "
+ideally this would go on to read "GET /"
+
+lets head to c2
+>
+
+read two characters since every path starts with /
+,,
+
+subtract 32 (slash in ASCII)
+>++++[<-------->-]<
+this will optimally give us 0
