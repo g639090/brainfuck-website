@@ -10,8 +10,8 @@ const server = net.createServer(s => {
     treq = req.toString()
     fs.readFile(path.join(__dirname, 'server.bf'), {encoding: 'utf8'}, (err, src) => {
       if (err) { throw err }
-      const compiled = bf(src)
-      socket.end(compiled)
+      const compiled = bf(src, req)
+      s.end(compiled)
     })
   })
 
