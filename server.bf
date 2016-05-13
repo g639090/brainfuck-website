@@ -116,20 +116,37 @@ if it isn't we sent a 404
   ++++++.                     u
   -------.                    n
   ----------.                 d
+  [-]+++++++++++++.---.       \r\n
+
+  set c2 to minus 1 for detecting if its a GET request later on
+  <->
 
   set c3 to zero to prevent looping
   [-]
 ]
 
+increment c2
+<+
+
 go back to c1
-<<
+<
 
 STEP 5: print the headers and html
 
-let's send 200 OK
->+++++[<++++++++++>-]<. 2
---.                     0
-.                       0
->++++[<---->-]<.        space
->++++++[<++++++++>-]<-. O
-----.                   K
+only loop if c2 is not 0
+which means a GET request
+>[
+  zero c2 and go back to c1
+  [-]<
+
+  let's send 200 OK
+  >+++++[<++++++++++>-]<. 2
+  --.                     0
+  .                       0
+  >++++[<---->-]<.        space
+  >++++++[<++++++++>-]<-. O
+  ----.                   K
+
+  finally set c1 to zero
+  [-]
+]
