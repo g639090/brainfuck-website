@@ -55,6 +55,9 @@ then head to cell 2 (abbreviated as c2 from now on) and make sure it isn't zero:
   <
 ]
 
+go back to c1
+<
+
 right now if c1 is 0 it is a GET request
 if not we want to throw a 404 (c1 is negative)
 c2 and c3 are 0 and the pointer points to c1
@@ -73,6 +76,9 @@ read two characters since every path starts with /
 subtract 32 (slash in ASCII)
 >++++[<-------->-]<
 this will optimally give us 0
+
+return to c1
+<
 
 so now if the path given is / we also have a 0 in c2
 
