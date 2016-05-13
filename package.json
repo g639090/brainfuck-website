@@ -4,7 +4,8 @@
   "description": "cool",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "private": true,
   "dependencies": {
     "brainfuck2000": "0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.9.2"
   }
 }
