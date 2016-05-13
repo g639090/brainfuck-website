@@ -120,3 +120,16 @@ if it isn't we sent a 404
   set c3 to zero to prevent looping
   [-]
 ]
+
+go back to c1
+<<
+
+STEP 5: print the headers and html
+
+let's send 200 OK
+>+++++[<++++++++++>-]<. 2
+--.                     0
+.                       0
+>++++[<---->-]<.        space
+>++++++[<++++++++>-]<-. O
+----.                   K
