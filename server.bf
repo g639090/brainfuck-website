@@ -73,3 +73,28 @@ read two characters since every path starts with /
 subtract 32 (slash in ASCII)
 >++++[<-------->-]<
 this will optimally give us 0
+
+so now if the path given is / we also have a 0 in c2
+
+STEP 4: send a 404 (if necessary)
+
+when c1 is not 0:
+[
+  set c3 to 1
+  >>+
+  and turn c1 to 0
+  <<[+] plus because it can only be 0 or negative
+]
+
+when c2 is not 0:
+>[
+  increment c3
+  >+<
+  and turn c2 to 0
+  [-] this time it should be positive 
+]
+
+right now c3 should either be 0 or not 0
+if it's 0 we carry on
+if it isn't we sent a 404
+
