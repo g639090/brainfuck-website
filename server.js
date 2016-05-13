@@ -18,7 +18,7 @@ server.on('connection', sock => {
 
       var program = brainfuck(src)
       program.run(req)
-      var res = program.resultString()
+      const res = program.resultString()
 
       sock.end(res)
     })
