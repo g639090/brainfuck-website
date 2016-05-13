@@ -98,3 +98,25 @@ right now c3 should either be 0 or not 0
 if it's 0 we carry on
 if it isn't we sent a 404
 
+>[
+  set c3 to 0 for future purposes
+  [-]
+
+  lets return "404 not found"!
+  >++++[<+++++++++++++>-]<.   4
+  ----.                       0
+  ++++.                       4
+  >+++++[<---->-]<.           space
+  >++++++[<+++++++++++++>-]<. n
+  +.                          o
+  +++++.                      t
+  >+++++++[<------------>-]<. space
+  >+++++++[<++++++++++>-]<.   f
+  +++++++++.                  o
+  ++++++.                     u
+  -------.                    n
+  ----------.                 d
+
+  set c3 to zero to prevent looping
+  [-]
+]
