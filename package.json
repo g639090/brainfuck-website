@@ -18,6 +18,6 @@
   "homepage": "https://github.com/tentakel/tentakel.github.io#readme",
   "private": true,
   "dependencies": {
-    "brainless": "0.1.0"
+    "brainfuck2000": "0.1.1"
   }
 }
