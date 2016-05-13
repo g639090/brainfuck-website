@@ -1,0 +1,28 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "description": "cool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentakel/tentakel.github.io.git"
+  },
+  "author": "tentakel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tentakel/tentakel.github.io/issues"
+  },
+  "homepage": "https://github.com/tentakel/tentakel.github.io#readme",
+  "private": true,
+  "dependencies": {
+    "brainfuck2000": "0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.9.2"
+  }
+}
