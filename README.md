@@ -1,4 +1,4 @@
-this is my website. it is powered by node.js, but mainly brainfuck. how can you write a website
+this is a simple website. it is powered by node.js, but mainly brainfuck. how can you write a website
 using brainfuck, you ask? well, there's two parts to it:
 
 #### the server
@@ -16,6 +16,12 @@ if it doesn't point to `/`, it constructs a 404 response. if everything is ok, t
 
 i had to keep the html minimal because otherwise it would've been an absolute nightmare to implement
 it in brainfuck (honestly, even now it is).
+
+#### installation
+
+1. clone this repository
+2. run `npm install`
+3. run `npm start` and visit http://localhost:3000
 
 #### license
 
